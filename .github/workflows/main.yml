@@ -26,6 +26,6 @@ jobs:
       with:
         node-version: '12'
     - name: Runs lint
-      run: npm run install
+      run: npm install
     - name: Runs lint
       run: npm run lint
