@@ -32,7 +32,7 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-node-
 
-    - name: Runs lint
+    - name: Node Packages Installation
       run: npm install
     - name: Runs lint
       run: npm run lint
